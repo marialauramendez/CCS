@@ -1,0 +1,66 @@
+/* add your CSS here */
+
+               
+.text{ 
+    border-width: 1px solid black;
+    border-color: rgb(15, 15, 15);
+    border-radius: 1px;
+    border-style: double;
+    padding: 5px;
+    margin: 2px; 
+    width: 300px;
+         
+}
+
+h3{
+    border-width: 1px solid black;
+    border-color: rgb(15, 15, 15);
+    border-radius: 1px;
+    border-style: double;
+    padding: 2px;
+    margin: 5px; 
+    height:auto;
+    width : 300px;
+    text-align: center;
+}
+
+img{
+padding: 2px;
+width: 300px;
+height:200px;
+}
+
+ul{
+    list-style-type: none;    
+}
+ul li span{
+    font-weight: bold;
+    font-size: 1em;
+    font-family: 'Times New Roman', Times, serif;  
+    padding: 3px;
+}
+#one{
+
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    font-size: 1em;
+    padding: 3px;
+}
+#two {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    font-size: 1em;
+    padding: 3px;
+}
+
+.container{
+    width: 300px;
+    display:flex;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: 5px;
+    border: 2px Solid #000000;
+    box-shadow: 5px 10px #888888;
+    background-color: #b3afaf;
+}
